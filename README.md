@@ -107,7 +107,7 @@ The chart below shows the simulated portfolios colored by Sharpe Ratio. The high
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/andrearadivo/portfolio-optimizer.git](https://github.com/andrearadivo/portfolio-optimizer.git)
+git clone https://github.com/andrearadivo/portfolio-optimizer.git
 
 cd portfolio-optimizer
 ```
