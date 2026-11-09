@@ -1,17 +1,16 @@
-# Quantitative Portfolio Optimization Research Project
+# Portfolio Optimizer
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)
 
-A modular Python-based quantitative finance project designed to explore the principles of Modern Portfolio Theory (MPT), Efficient Frontier construction, and risk-adjusted portfolio optimization.
-
+A modular Python-based tool designed to explore the principles of Modern Portfolio Theory (MPT), Efficient Frontier construction, and risk-adjusted portfolio optimization.
 ---
 
 ## 📂 Repository Structure
 
 ```text
-quant-project-1/
+portfolio-optimizer/
 │
 ├── data_ingestion.py      # Market data download & cleaning (yFinance)
 ├── financial_core.py      # Returns & covariance matrix math
@@ -50,7 +49,7 @@ Visualizes the risk-return landscape and highlights the Maximum Sharpe allocatio
 
 ## 🧮 Mathematical Foundations (Sharpe Ratio)
 
-The optimization engine evaluates portfolios based on risk-adjusted performance using the True Sharpe Ratio:
+The optimization engine evaluates portfolios based on risk-adjusted performance using the Sharpe Ratio:
 
 ```text
 Sharpe = (Rₚ - Rf) / σₚ
@@ -108,9 +107,9 @@ The chart below shows the simulated portfolios colored by Sharpe Ratio. The high
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/andrearadivo/quant-project-1.git
+git clone [https://github.com/andrearadivo/portfolio-optimizer.git](https://github.com/andrearadivo/portfolio-optimizer.git)
 
-cd quant-project-1
+cd portfolio-optimizer
 ```
 
 ### Create and Activate a Virtual Environment
@@ -151,7 +150,7 @@ Through the development of this framework, I gained practical experience with:
 
 - Modern Portfolio Theory (MPT)
 - Efficient Frontier Construction
-- True Sharpe Ratio Optimization
+- Sharpe Ratio Optimization
 - Financial Time Series Analysis
 - NumPy Vectorization
 - Risk-Constrained Portfolio Construction
@@ -162,7 +161,8 @@ Through the development of this framework, I gained practical experience with:
 
 ## 🗺️ Long-Term Evolution & Future Research
 
-Future development phases will transition this project from an exploratory simulator into a complete quantitative research and backtesting suite.
+Roadmap & Future Enhancements
+Future development phases will focus on replacing the Monte Carlo simulation with mathematical optimization and introducing backtesting capabilities.
 
 ### ☐ Mathematical Optimization
 
@@ -198,11 +198,3 @@ Explore:
 - Black-Litterman Optimization
 - Risk Parity
 - Hierarchical Risk Parity (HRP)
-
----
-
-## 🚀 Project Vision
-
-This project represents my ongoing journey into quantitative finance, portfolio construction, and systematic investment research.
-
-The long-term objective is to evolve this educational optimizer into a complete quantitative research and portfolio management framework.
