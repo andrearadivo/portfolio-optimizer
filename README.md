@@ -159,9 +159,8 @@ Through the development of this framework, I gained practical experience with:
 
 ---
 
-## 🗺️ Long-Term Evolution & Future Research
+## 🗺️ Roadmap & Future Enhancements
 
-Roadmap & Future Enhancements
 Future development phases will focus on replacing the Monte Carlo simulation with mathematical optimization and introducing backtesting capabilities.
 
 ### ☐ Mathematical Optimization
